@@ -5,7 +5,7 @@ curl "http://localhost:4741/movies" \
   --data '{
     "movie": {
       "title": "'"${TITLE}"'",
-      "descritption": "'"${DESCRIPTION}"'",
+      "description": "'"${DESCRIPTION}"'",
       "original_title": "'"${ORIGINAL_TITLE}"'"
     }
   }'
